@@ -44,14 +44,12 @@ header {
 .contenavbar .navbar ul li a:hover {
     color: #13ffe0;
 }
-
-.logocont{
+.logo {
     float: left;
+    margin-left: 40px;
+    color: #73047b;
+    font-size: 39px;    
 }
-
-#logo {
-    color: #73047b;    
-}
-#logo :hover{
+.logo :hover{
     color: #13ffe0;
 }
