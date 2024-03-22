@@ -9,9 +9,12 @@
     list-style: none;
     font-family: "Poppins", sans-serif;
 }
-
+:root{
+    --azul-celeste:rgb(1, 159, 217);
+    --color-texto:#ffff;
+}
 header {
-    background-color: rgb(9, 191, 219);
+    background-color: var(--azul-celeste);
 }
 .contenedormenu{
     display: flex;
@@ -61,16 +64,18 @@ header {
 }
 .peliculas h2{
     margin-top: 100px;
+    color: #081a70;
 }
 .contenedor-imagen{
     margin-top: 40px;
     box-shadow: #73047b;
     text-align: center;
+    box-shadow: #13ffe0;
 }
 .contenedor-imagen figcaption{
-    background-color: antiquewhite;
+    color: #73047b;
+    text-align: left;
 }
 .imagen{
-    border: solid 10px #13ffe0;
-    
+    background-color: #ffff;
 }
