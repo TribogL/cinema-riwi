@@ -115,3 +115,15 @@ footer {
     border-color: #d2cfcf;
     height: 600px;
 }
+.accion {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+.accion h3 {
+    color: #081a70;
+    text-align: center;
+    flex-direction: row;
+}
