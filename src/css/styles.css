@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 * {
     margin: 0;
     padding: 0;
@@ -9,10 +9,19 @@
     list-style: none;
     font-family: "Poppins", sans-serif;
 }
-.contenavbar {
+
+header {
+    background-color: rgb(9, 191, 219);
+}
+.contenedormenu{
     display: flex;
-    align-items: start;
-    justify-content: end;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.contenavbar {
+    flex-direction: row;
 }
 
 .contenavbar .navbar a {
@@ -21,17 +30,28 @@
 
 
 .contenavbar .navbar ul li {
-    position: relative;
+    position:relative;
     float: right;
 }
 
 .contenavbar .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #450c0c;
+    color: #73047b;
     display: block;
 }
 
 .contenavbar .navbar ul li a:hover {
-    color: #eb0303;
+    color: #13ffe0;
+}
+
+.logocont{
+    float: left;
+}
+
+#logo {
+    color: #73047b;    
+}
+#logo :hover{
+    color: #13ffe0;
 }
