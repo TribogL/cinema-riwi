@@ -9,19 +9,6 @@
     list-style: none;
     font-family: "Poppins", sans-serif;
 }
-h1 {
-    text-align: left;
-    font-size: 50px;
-    margin-bottom: 0px;
-    text-transform: capitalize;
-    color: rgb(115 29 29);
-    height: 7vh;
-    width: 40vh;
-}
-h1 :hover{
-    color: #ff1212;
-}
-
 .contenavbar {
     display: flex;
     align-items: start;
