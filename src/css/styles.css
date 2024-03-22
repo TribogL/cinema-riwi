@@ -106,6 +106,10 @@ footer {
     color: #73047b;
     text-align: left;
 }
+.contenedor-imagen span {
+    color: #73047b;
+}
+
 
 .imagen {
     border-color: #d2cfcf;
