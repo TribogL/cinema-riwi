@@ -59,3 +59,18 @@ header {
     justify-items:center;
     flex-direction: column;
 }
+.peliculas h2{
+    margin-top: 100px;
+}
+.contenedor-imagen{
+    margin-top: 40px;
+    box-shadow: #73047b;
+    text-align: center;
+}
+.contenedor-imagen figcaption{
+    background-color: antiquewhite;
+}
+.imagen{
+    border: solid 10px #13ffe0;
+    
+}
