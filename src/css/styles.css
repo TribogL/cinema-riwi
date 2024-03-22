@@ -57,7 +57,7 @@ header {
     color: #13ffe0;
 }
 .peliculas{
-    display: flex;
+    display:flex;
     align-items: center;
     justify-items:center;
     flex-direction: column;
@@ -67,15 +67,17 @@ header {
     color: #081a70;
 }
 .contenedor-imagen{
-    margin-top: 40px;
+    margin: 40px;
     box-shadow: #73047b;
     text-align: center;
     box-shadow: #13ffe0;
+    padding: 40px;
+    background-color: #f5f4f4;
 }
 .contenedor-imagen figcaption{
     color: #73047b;
     text-align: left;
-}
+}   
 .imagen{
-    background-color: #ffff;
+    border-color:#d2cfcf ;
 }
