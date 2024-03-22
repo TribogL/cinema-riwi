@@ -53,3 +53,9 @@ header {
 .logo :hover{
     color: #13ffe0;
 }
+.peliculas{
+    display: flex;
+    align-items: center;
+    justify-items:center;
+    flex-direction: column;
+}
