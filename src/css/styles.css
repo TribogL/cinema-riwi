@@ -16,7 +16,6 @@ a {
     list-style: none;
     
 }
-x
 body{
     font-family: "Poppins", sans-serif;
     
@@ -78,4 +77,7 @@ footer {
 
 .logo :hover {
     color: #13ffe0;
+}
+.imagen{
+    height: 600px;
 }
